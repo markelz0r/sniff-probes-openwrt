@@ -1,0 +1,4 @@
+22:07:14.102146 1.0 Mb/s 2462 MHz 11b -53dBm signal -53dBm signal antenna 0 -55dBm signal antenna 1 BSSID:Broadcast DA:Broadcast SA:78:31:c1:c3:e5:98 (oui Unknown) Probe Request (OpenWrt) [1.0 2.0 5.5 11.0 Mbit]
+22:07:19.042391 1.0 Mb/s 2462 MHz 11b -92dBm signal -92dBm signal antenna 0 -93dBm signal antenna 1 BSSID:Broadcast DA:Broadcast SA:e4:f0:42:32:15:8c (oui Unknown) Probe Request (TALKTALKAACF5A) [1.0 2.0 5.5 6.0 9.0 11.0 12.0 18.0 Mbit]
+22:07:19.045530 1.0 Mb/s 2462 MHz 11b -93dBm signal -93dBm signal antenna 0 -93dBm signal antenna 1 BSSID:Broadcast DA:Broadcast SA:e4:f0:42:32:15:8c (oui Unknown) Probe Request (TALKTALKAACF5A) [1.0 2.0 5.5 6.0 9.0 11.0 12.0 18.0 Mbit]
+22:07:19.300304 1.0 Mb/s 2462 MHz 11b -84dBm signal -93dBm signal antenna 0 -84dBm signal antenna 1 BSSID:Broadcast DA:Broadcast SA:88:66:a5:3e:99:78 (oui Unknown) Probe Request (VM9001237) [1.0 2.0 5.5 11.0 Mbit]
