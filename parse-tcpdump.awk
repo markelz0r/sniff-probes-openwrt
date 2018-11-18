@@ -27,7 +27,7 @@ match($0, /Probe Request \(.*\)/, ssid) {
         TIMESTAMP=$1
 
         # print them to stdout
-        print TIMESTAMP " " STRENGTH " " MAC " \"" SSID "\""
+        print "\""TIMESTAMP"\""",""\""STRENGTH"\""",""\""MAC"\""",""\""SSID"\""
         system("") # flush the buffer
     }
 }
