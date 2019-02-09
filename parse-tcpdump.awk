@@ -26,8 +26,11 @@ match($0, /Probe Request \(.*\)/, ssid) {
         gsub(/\.[0-9]+/, "", $1)
         TIMESTAMP=$1
 
+        #assign deviceid
+        DEVICEID=router1
+
         # print them to stdout
-        print "\""TIMESTAMP"\""",""\""STRENGTH"\""",""\""MAC"\""",""\""SSID"\""
+        print "\""TIMESTAMP"\""",""\""STRENGTH"\""",""\""MAC"\""",""\""SSID"\"",""\""DEVICEID"\""
         system("") # flush the buffer
     }
 }
