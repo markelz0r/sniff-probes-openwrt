@@ -27,7 +27,7 @@ match($0, /Probe Request \(.*\)/, ssid) {
         TIMESTAMP=$1
 
         #assign deviceid
-        DEVICEID=router1
+        DEVICEID="router1"
 
         # print them to stdout
         print "\""TIMESTAMP"\""",""\""STRENGTH"\""",""\""MAC"\""",""\""SSID"\"",""\""DEVICEID"\""
