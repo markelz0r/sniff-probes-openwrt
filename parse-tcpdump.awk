@@ -30,7 +30,7 @@ match($0, /Probe Request \(.*\)/, ssid) {
         DEVICEID="router1"
 
         # print them to stdout
-        print "\""TIMESTAMP"\""",""\""STRENGTH"\""",""\""MAC"\""",""\""SSID"\"",""\""DEVICEID"\""
+        print "\""TIMESTAMP"\""",""\""STRENGTH"\""",""\""MAC"\""",""\""SSID"\""",""\""DEVICEID"\""
         system("") # flush the buffer
     }
 }
